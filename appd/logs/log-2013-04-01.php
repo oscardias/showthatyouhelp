@@ -1,0 +1,113 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2013-04-01 10:59:53 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 10:59:53 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 10:59:55 --> Severity: Notice  --> Undefined index: oauth_token D:\www\showthatyouhelp\appd\libraries\twitteroauth\twitteroauth.php 82
+ERROR - 2013-04-01 10:59:55 --> Severity: Notice  --> Undefined index: oauth_token_secret D:\www\showthatyouhelp\appd\libraries\twitteroauth\twitteroauth.php 82
+ERROR - 2013-04-01 10:59:55 --> sign->twitter_sign()
+ERROR - 2013-04-01 10:59:55 --> 404 Page Not Found --> sign/images
+ERROR - 2013-04-01 10:59:55 --> 404 Page Not Found --> sign/images
+ERROR - 2013-04-01 10:59:55 --> 404 Page Not Found --> sign/images
+ERROR - 2013-04-01 11:09:08 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:09:08 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:09:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:09:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:13:17 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:13:17 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:25:44 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:25:44 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:45:34 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:45:34 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:45:45 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:45:45 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:45:46 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:45:46 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:47:45 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:47:45 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:47:46 --> Severity: Notice  --> Undefined index: oauth_token D:\www\showthatyouhelp\appd\libraries\twitteroauth\twitteroauth.php 122
+ERROR - 2013-04-01 11:47:46 --> Severity: Notice  --> Undefined index: oauth_token_secret D:\www\showthatyouhelp\appd\libraries\twitteroauth\twitteroauth.php 122
+ERROR - 2013-04-01 11:47:46 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:47:46 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$id D:\www\showthatyouhelp\appd\controllers\sign.php 465
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined index: oauth_token D:\www\showthatyouhelp\appd\controllers\sign.php 483
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined index: oauth_token_secret D:\www\showthatyouhelp\appd\controllers\sign.php 484
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$id D:\www\showthatyouhelp\appd\controllers\sign.php 485
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$name D:\www\showthatyouhelp\appd\controllers\sign.php 490
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$screen_name D:\www\showthatyouhelp\appd\controllers\sign.php 491
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$description D:\www\showthatyouhelp\appd\controllers\sign.php 492
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$url D:\www\showthatyouhelp\appd\controllers\sign.php 493
+ERROR - 2013-04-01 11:47:47 --> Severity: Notice  --> Undefined property: stdClass::$profile_image_url D:\www\showthatyouhelp\appd\controllers\sign.php 494
+ERROR - 2013-04-01 11:48:51 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:48:51 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:48:55 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:48:55 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:48:56 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:48:56 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 11:52:29 --> Severity: Notice  --> Undefined variable: username D:\www\showthatyouhelp\appd\views\signup_twitter.php 39
+ERROR - 2013-04-01 11:54:14 --> Severity: Notice  --> Undefined variable: username D:\www\showthatyouhelp\appd\views\signup_twitter.php 39
+ERROR - 2013-04-01 11:56:57 --> Severity: Notice  --> Undefined index: password D:\www\showthatyouhelp\appd\models\user_model.php 135
+ERROR - 2013-04-01 11:57:18 --> 404 Page Not Found --> upload
+ERROR - 2013-04-01 11:57:18 --> 404 Page Not Found --> upload
+ERROR - 2013-04-01 12:02:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:02:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:02:34 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:02:34 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:02:48 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:02:48 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:03:02 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 12:03:02 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:50:11 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:50:11 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:50:18 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:50:18 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:50:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:50:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:34 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:34 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:39 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:39 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:40 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:40 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 17:54:57 --> Severity: Notice  --> Undefined index: password D:\www\showthatyouhelp\appd\models\user_model.php 135
+ERROR - 2013-04-01 17:55:05 --> 404 Page Not Found --> upload
+ERROR - 2013-04-01 17:55:05 --> 404 Page Not Found --> upload
+ERROR - 2013-04-01 18:04:04 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:04:04 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:04:09 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:04:09 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:04:10 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:04:10 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:04:16 --> Severity: Notice  --> Undefined index: password D:\www\showthatyouhelp\appd\models\user_model.php 135
+ERROR - 2013-04-01 18:06:15 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:06:15 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:06:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:06:19 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:06:20 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 18:06:20 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:42 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:42 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:47 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:47 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:49 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:49 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:03:50 --> Severity: Notice  --> Undefined variable: twitter_username D:\www\showthatyouhelp\appd\views\signup_twitter.php 52
+ERROR - 2013-04-01 19:04:40 --> Severity: Notice  --> Undefined index: password D:\www\showthatyouhelp\appd\models\user_model.php 135
+ERROR - 2013-04-01 19:06:02 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:02 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:08 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:08 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:09 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:09 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:17 --> Severity: Notice  --> Undefined index: password D:\www\showthatyouhelp\appd\models\user_model.php 130
+ERROR - 2013-04-01 19:06:44 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:44 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:50 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:50 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:52 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:06:52 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:39:16 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:39:16 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:39:21 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:39:21 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:39:23 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383
+ERROR - 2013-04-01 19:39:23 --> Severity: Notice  --> Undefined index: port D:\www\showthatyouhelp\appd\libraries\twitteroauth\OAuth.php 383

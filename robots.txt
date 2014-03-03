@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /appd
+Disallow: /css
+Disallow: /js
+Disallow: /sysd
+Disallow: *.php
+
+Sitemap: http://www.showthatyouhelp.com/upload/sitemap.xml

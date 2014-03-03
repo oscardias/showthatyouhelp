@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>http://showthatyouhelp.localhost/</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/logo.png</image:loc> 
+        </image:image>
+        <lastmod>2012-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://showthatyouhelp.localhost/about</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/logo.png</image:loc> 
+        </image:image>
+        <lastmod>2012-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://showthatyouhelp.localhost/about/terms</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/logo.png</image:loc> 
+        </image:image>
+        <lastmod>2012-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://showthatyouhelp.localhost/about/privacy</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/logo.png</image:loc> 
+        </image:image>
+        <lastmod>2012-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+ 
+    <url>
+        <loc>http://showthatyouhelp.localhost/about/contact</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/logo.png</image:loc> 
+        </image:image>
+        <lastmod>2012-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+ 
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/showthatyouhelp</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste01</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-07-27</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/oscardias/eu-orkut3_large.jpg</image:loc> 
+        </image:image>
+        <lastmod>2012-08-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/oscar/shinobi_large.jpg</image:loc> 
+        </image:image>
+        <lastmod>2012-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste02</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-08-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste03</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste04</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/teste05/Taim11_large.JPG</image:loc> 
+        </image:image>
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste06</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/teste06/DSC09181_large.JPG</image:loc> 
+        </image:image>
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste07</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/teste07/Desert_large.jpg</image:loc> 
+        </image:image>
+        <lastmod>2012-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste08</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/teste08/Damiao-Hadouken_large.jpg</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste09</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste10</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste12</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste13</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste14</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste15</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste16</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste17</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste18</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste19</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste20</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste21</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste23</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste24</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste25</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-10-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste26</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/profile/teste26/mapa_camisa_10_large.JPG</image:loc> 
+        </image:image>
+        <lastmod>2012-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste27</loc>
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/images/profile/default_large.png</image:loc> 
+        </image:image>
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+        
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste01/1</loc>
+                
+        <lastmod>2012-07-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/2</loc>
+                
+        <lastmod>2012-07-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste01/3</loc>
+                
+        <lastmod>2012-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/21</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/22</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/23</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/24</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/25</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/26</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/27</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/28</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/29</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/30</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/31</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/32</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/33</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/34</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/35</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/36</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/37</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/38</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/39</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/40</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/41</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/46</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/47</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/48</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/49</loc>
+                
+        <lastmod>2012-07-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/50</loc>
+                
+        <lastmod>2012-07-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/51</loc>
+                
+        <lastmod>2012-07-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/52</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/1-ae_Opel_Tigra_731_05.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-07-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/53</loc>
+                
+        <lastmod>2012-07-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/54</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/55</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/56</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/57</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/58</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/59</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/60</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/61</loc>
+                
+        <lastmod>2012-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste01/62</loc>
+                
+        <lastmod>2012-07-27</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/63</loc>
+                
+        <lastmod>2012-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/64</loc>
+                
+        <lastmod>2012-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/65</loc>
+                
+        <lastmod>2012-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/66</loc>
+                
+        <lastmod>2012-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/67</loc>
+                
+        <lastmod>2012-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/68</loc>
+                
+        <lastmod>2012-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/69</loc>
+                
+        <lastmod>2012-08-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/70</loc>
+                
+        <lastmod>2012-08-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/76</loc>
+                
+        <lastmod>2012-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/84</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/85</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/86</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/87</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/91</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/5-black_wallpaper_cat_head_1600x1200.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/94</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/95</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/96</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/97</loc>
+                
+        <lastmod>2012-08-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/98</loc>
+                
+        <lastmod>2012-08-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/99</loc>
+                
+        <lastmod>2012-08-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/100</loc>
+                
+        <lastmod>2012-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/101</loc>
+                
+        <lastmod>2012-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/110</loc>
+                
+        <lastmod>2012-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/111</loc>
+                
+        <lastmod>2012-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/112</loc>
+                
+        <lastmod>2012-08-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/117</loc>
+                
+        <lastmod>2012-08-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/118</loc>
+                
+        <lastmod>2012-08-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscardias/119</loc>
+                
+        <lastmod>2012-08-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/121</loc>
+                
+        <lastmod>2012-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/122</loc>
+                
+        <lastmod>2012-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/123</loc>
+                
+        <lastmod>2012-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/124</loc>
+                
+        <lastmod>2012-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/126</loc>
+                
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/127</loc>
+                
+        <lastmod>2012-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/128</loc>
+                
+        <lastmod>2012-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/129</loc>
+                
+        <lastmod>2012-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/130</loc>
+                
+        <lastmod>2012-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/131</loc>
+                
+        <lastmod>2012-09-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/132</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/133</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/134</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/135</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/136</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/137</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/138</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/139</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/140</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/141</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/142</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/143</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/144</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/145</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/146</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/147</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/148</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/149</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/150</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/151</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/152</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/153</loc>
+                
+        <lastmod>2012-09-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/154</loc>
+                
+        <lastmod>2012-09-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/159</loc>
+                
+        <lastmod>2012-09-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/164</loc>
+                
+        <lastmod>2012-09-09</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/165</loc>
+                
+        <lastmod>2012-09-09</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/166</loc>
+                
+        <lastmod>2012-09-09</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/167</loc>
+                
+        <lastmod>2012-09-09</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/168</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/7-dawninmadrid_1440x900.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-09-10</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/184</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/186</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/187</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/9-wall3-1280x960.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/188</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/190</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/195</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/197</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/9-wall3-1280x960.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/198</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/9-wall3-1280x960.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/199</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/200</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/201</loc>
+                
+        <lastmod>2012-09-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/202</loc>
+                
+        <lastmod>2012-09-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/203</loc>
+                
+        <lastmod>2012-09-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/208</loc>
+                
+        <lastmod>2012-09-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/209</loc>
+                
+        <lastmod>2012-09-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/212</loc>
+                
+        <lastmod>2012-09-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/213</loc>
+                
+        <lastmod>2012-09-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/214</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/215</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/216</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/217</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/218</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/220</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste06/221</loc>
+                
+        <lastmod>2012-09-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/222</loc>
+                
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/223</loc>
+                
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste06/224</loc>
+                
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/225</loc>
+                
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste06/226</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/teste06/13-peace_1440x900.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/227</loc>
+                
+        <lastmod>2012-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste07/229</loc>
+                
+        <lastmod>2012-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste07/230</loc>
+                
+        <lastmod>2012-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/231</loc>
+                
+        <lastmod>2012-10-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/232</loc>
+                
+        <lastmod>2012-10-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/233</loc>
+                
+        <lastmod>2012-10-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/234</loc>
+                
+        <lastmod>2012-10-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/235</loc>
+                
+        <lastmod>2012-10-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/236</loc>
+                
+        <lastmod>2012-10-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/237</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/238</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/239</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/240</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/241</loc>
+                
+        <lastmod>1970-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/242</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/243</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/244</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/245</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/246</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/15-Superman_Returns_415200554427PM455.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/247</loc>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/248</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/16-polynesian_1440x900.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/249</loc>
+                
+        <lastmod>2012-10-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/251</loc>
+                
+        <lastmod>2012-10-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/252</loc>
+                
+        <lastmod>2012-10-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/253</loc>
+                
+        <lastmod>2012-10-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/254</loc>
+                
+        <lastmod>2012-10-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/255</loc>
+                
+        <lastmod>2012-10-18</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/256</loc>
+                
+        <lastmod>2012-10-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/257</loc>
+                
+        <lastmod>2012-10-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/258</loc>
+                
+        <lastmod>2012-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/259</loc>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/260</loc>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/261</loc>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/262</loc>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/263</loc>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/teste05/264</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/teste06/13-peace_1440x900.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/265</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/teste06/13-peace_1440x900.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/267</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/17-</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/268</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/18-</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/269</loc>
+                
+        <lastmod>2012-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/270</loc>
+                
+        <lastmod>2012-10-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/271</loc>
+                
+        <lastmod>2012-10-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/272</loc>
+                
+        <image:image>
+            <image:loc>http://showthatyouhelp.localhost/upload/photo/oscar/19-gigantinho.jpg</image:loc> 
+        </image:image>
+                
+        <lastmod>2012-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/273</loc>
+                
+        <lastmod>2012-11-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/274</loc>
+                
+        <lastmod>2012-12-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/275</loc>
+                
+        <lastmod>2012-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/9</loc>
+                
+        <lastmod>2012-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/156</loc>
+                
+        <lastmod>2012-09-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+        
+    <url>
+        <loc>http://showthatyouhelp.localhost/p/oscar/250</loc>
+                
+        <lastmod>2012-10-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+     
+</urlset>

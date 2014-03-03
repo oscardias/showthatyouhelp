@@ -1,0 +1,37 @@
+/*
+    Navigation Bar
+*/
+#search-form input[type=submit]{
+    margin-top:3px;
+}
+/*
+    Settings
+*/
+.settings-input input[name=picture]{
+    float:none;
+}
+/*
+    Updates List
+*/
+.updates-list-share input[type=file]{
+    margin-bottom: 0;
+}
+/*
+    General Classes
+*/
+.gradient-btn{
+    border-radius:0;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+}
+input.gradient-btn{
+    padding:6px 8px;
+}
+.gradient-btn:hover, .gradient-btn.selected{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=0 ); /* IE6-9 */
+}
+.gradient-btn[disabled='disabled']{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefff9', endColorstr='#c3cebd',GradientType=0 ); /* IE6-9 */
+}
+.gradient-btn.gradient-red:hover{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}

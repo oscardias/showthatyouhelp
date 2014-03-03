@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+ExpiresActive On
+<FilesMatch "\.(ico|gif|jpe?g|png|js|css)$">
+  ExpiresDefault "access plus 1 year"
+</FilesMatch>

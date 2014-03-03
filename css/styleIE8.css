@@ -1,0 +1,67 @@
+/*
+    Landing page
+*/
+.landing-image-credits{
+    background:#333;
+}
+/* Search friends */
+#search-form input[type=text]{
+    float:left;
+    margin-top: 2px;
+}
+#search-form input[type=submit]{
+    height:21px;
+    float:left;
+    margin:2px 2px 0;
+}
+/*
+    Settings
+*/
+.settings-input input[name=picture]{
+    float:none;
+}
+/*
+    Updates List
+*/
+/*.updates-list-share input#photo-styled{
+    opacity: 0;
+    filter: alpha(opacity=0);  msie 
+}
+.updates-list-share input[type=file]{
+    opacity: 100;
+    filter: alpha(opacity=100);  msie 
+    z-index: 2;
+}*/
+#update-list-share-add{
+    margin-bottom:2px;
+    padding-bottom:2px;
+}
+/*
+    Footer
+*/
+.bottom-navigation{
+    background: #333;
+    border:1px solid #343;
+    color:#ccc;
+}
+.bottom-navigation a{
+    color:#ccc;
+}
+/*
+    General Classes
+*/
+.gradient-btn{
+    background: #ddd;
+}
+input.gradient-btn{
+    padding:5px 8px 6px;
+}
+.gradient-btn:hover, .gradient-btn.selected{
+    background: #b2e1ff;
+}
+.gradient-btn[disabled='disabled']{
+    background: #fefff9;
+}
+.gradient-btn.gradient-red:hover{
+    background: #febbbb;
+}
