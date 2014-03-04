@@ -2,7 +2,8 @@ showthatyouhelp
 ===============
 
 Source code for showthatyouhelp.com, made open source on March 2nd 2014. showthatyouhelp.com is a social network
-for sustainability and green topics in general.
+for sustainability and green topics in general. If you want to try the application, visit [showthatyouhelp.com](showthatyouhelp.com)
+and sign up.
 
 Technologies
 ------------
