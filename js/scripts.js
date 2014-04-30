@@ -167,7 +167,7 @@ function getShareInput(type){
         case 'video':
             return '<input type="text" name="video" id="video" placeholder="' + messages.js_video + '">';
         case 'photo':
-            return '<input type="text" name="photo_styled" id="photo-styled" placeholder="' + messages.js_link + '"><input type="file" name="photo" id="photo">';
+            return '<input type="text" name="photo_styled" id="photo-styled" placeholder="' + messages.js_photo + '"><input type="file" name="photo" id="photo">';
     }
 }
 
@@ -593,13 +593,13 @@ $(document).ready(function(){
         });
 
         $('#home-share-comment').focus(function(){
-            $(this).animate({width: '500px', height: '100px', boxShadow: '0 0 5px #000'}).addClass('animate');
+            $(this).animate({height: '100px'}).addClass('animate');
         });
 
         $('#home-share-comment').focusout(function(){
-            $(this).animate({width: '258px', height: '50px', boxShadow: '0 0 0 #000'}).removeClass('animate');
+            $(this).animate({height: '30px'}).removeClass('animate');
         });
-    
+        
         $('#photo').live('change', function(){
             var pattern = /^.*[\/\\](.*)$/i;
             var file = $(this).val();

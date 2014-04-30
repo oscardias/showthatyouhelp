@@ -855,18 +855,18 @@ div.settings-input{
     border:1px solid #ddd;
     border-radius: 10px;
     background: #eee;
-    width:268px;
+    width:603px;
 }
 .updates-list-share .updates-list-header{
-    width:120px;
+    width:455px;
 }
 .update-list-share-form{
     position:relative;
 }
 .updates-list-share textarea{
     margin-top:10px;
-    width:258px;
-    height:50px;
+    width:593px;
+    height:30px;
     float: right;
     -webkit-transition: -webkit-box-shadow 0.5s ease-out;
     -moz-transition: -moz-box-shadow 0.5s ease-out;
@@ -884,21 +884,21 @@ div.settings-input{
     display:inline-block;
     margin-top:2px;
     margin-bottom: -2px;
-    width:170px;
+    width:505px;
     overflow:hidden;
     position:relative;
 }
 .updates-list-share input{
     display:inline-block;
-    width:160px;
+    width:495px;
 }
 .updates-list-share input#photo-styled{
    position:absolute;
    left:0;
    top:0;
-   background: #fff url(../images/icon/update-sprite.png) no-repeat 142px -14px;
+   background: #fff url(../images/icon/update-sprite.png) no-repeat 477px -14px;
    padding-right: 20px;
-   width:140px;
+   width:475px;
    z-index: 1;
 }
 .updates-list-share input[type=file]{

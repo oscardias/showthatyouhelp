@@ -1,5 +1,57 @@
 <div id="main" class="container updates-list">
     <div id="updates-list-left">
+        <div class="updates-list-share">
+            <div class="update-list-share-form">
+            <div class="updates-list-header">
+                <h2><?php echo lang('home_share_title'); ?></h2>
+            </div>
+            <div id="update-list-share-btns">
+                <?php echo anchor('home/share/text', '<i class="text-btn"></i>', 'title="'.lang('home_share_text').'" class="share-btn-action share-text'.(($sharing == 'text')?' selected':'').'"'); ?>
+                <?php echo anchor('home/share/link', '<i class="url-btn"></i>', 'title="'.lang('home_share_link').'" class="share-btn-action share-link'.(($sharing == 'link')?' selected':'').'"'); ?>
+                <?php echo anchor('home/share/video', '<i class="video-btn"></i>', 'title="'.lang('home_share_video').'" class="share-btn-action share-video'.(($sharing == 'video')?' selected':'').'"'); ?>
+                <?php echo anchor('home/share/photo', '<i class="photo-btn"></i>', 'title="'.lang('home_share_photo').'" class="share-btn-action share-photo'.(($sharing == 'photo')?' selected':'').'"'); ?>
+            </div>
+                <?php echo form_open_multipart('home/share', 'id="home-share-form"'); ?>
+                <?php echo form_textarea(array('name' => 'comment'), '', 'placeholder="'.lang('home_share_place_text').'" id="home-share-comment"'); ?>
+                <div id="update-list-share-add" <?php if($sharing == 'text') echo 'style="display:none"'; ?>>
+                <?php if($sharing == 'link') : ?>
+                    <div id="update-list-share-add">
+                    <?php echo form_input('url', '','id="url" placeholder="'.lang('home_share_place_link').'"'); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if($sharing == 'video') : ?>
+                    <div id="update-list-share-add">
+                    <?php echo form_input('video', '','id="video" placeholder="'.lang('home_share_place_video').'"'); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if($sharing == 'photo') : ?>
+                    <div id="update-list-share-add">
+                    <?php echo form_input('photo_styled', '','id="photo-styled" placeholder="'.lang('home_share_place_photo').'"'); ?>
+                    <?php echo form_upload('photo', '', 'id="photo"'); ?>
+                    </div>
+                <?php endif; ?>
+                </div>
+
+                <?php echo form_hidden('remote', ''); ?>
+                <?php echo form_hidden('title', ''); ?>
+                <?php echo form_hidden('description', ''); ?>
+                <?php echo form_hidden('image', ''); ?>
+                <?php echo form_hidden('icon', ''); ?>
+                <?php echo form_hidden('domain', ''); ?>
+                <?php echo form_hidden('site_name', ''); ?>
+                <?php echo form_hidden('player', ''); ?>
+
+                <?php echo form_hidden('type', $sharing); ?>
+                <?php echo form_submit('share', lang('home_share_submit'),'id="submit" class="gradient-btn"'); ?>
+                <?php echo form_close(); ?>
+                <div class="clear"></div>
+                <div id="updates-list-share-answer" <?php if(!isset($error_msg)) echo 'style="display:none;"'; ?>>
+                    <?php if(isset($error_msg)) : ?>
+                    <p class="error-msg"><?php echo $error_msg; ?></p>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
         
         <div id="updates-list-refresh-wrap">
             <input type="hidden" value="home" id="updates-list-refresh-type" name="updates-list-refresh-type"/>
@@ -110,59 +162,6 @@
         </div>
         
         <div class="fixed-block">
-            <div class="updates-list-share">
-                <div class="update-list-share-form">
-                <div class="updates-list-header">
-                    <h2><?php echo lang('home_share_title'); ?></h2>
-                </div>
-                <div id="update-list-share-btns">
-                    <?php echo anchor('home/share/text', '<i class="text-btn"></i>', 'title="'.lang('home_share_text').'" class="share-btn-action share-text'.(($sharing == 'text')?' selected':'').'"'); ?>
-                    <?php echo anchor('home/share/link', '<i class="url-btn"></i>', 'title="'.lang('home_share_link').'" class="share-btn-action share-link'.(($sharing == 'link')?' selected':'').'"'); ?>
-                    <?php echo anchor('home/share/video', '<i class="video-btn"></i>', 'title="'.lang('home_share_video').'" class="share-btn-action share-video'.(($sharing == 'video')?' selected':'').'"'); ?>
-                    <?php echo anchor('home/share/photo', '<i class="photo-btn"></i>', 'title="'.lang('home_share_photo').'" class="share-btn-action share-photo'.(($sharing == 'photo')?' selected':'').'"'); ?>
-                </div>
-                    <?php echo form_open_multipart('home/share', 'id="home-share-form"'); ?>
-                    <?php echo form_textarea(array('name' => 'comment'), '', 'placeholder="'.lang('home_share_place_text').'" id="home-share-comment"'); ?>
-                    <div id="update-list-share-add" <?php if($sharing == 'text') echo 'style="display:none"'; ?>>
-                    <?php if($sharing == 'link') : ?>
-                        <div id="update-list-share-add">
-                        <?php echo form_input('url', '','id="url" placeholder="'.lang('home_share_place_link').'"'); ?>
-                        </div>
-                    <?php endif; ?>
-                    <?php if($sharing == 'video') : ?>
-                        <div id="update-list-share-add">
-                        <?php echo form_input('video', '','id="video" placeholder="'.lang('home_share_place_video').'"'); ?>
-                        </div>
-                    <?php endif; ?>
-                    <?php if($sharing == 'photo') : ?>
-                        <div id="update-list-share-add">
-                        <?php echo form_input('photo_styled', '','id="photo-styled" placeholder="'.lang('home_share_place_photo').'"'); ?>
-                        <?php echo form_upload('photo', '', 'id="photo"'); ?>
-                        </div>
-                    <?php endif; ?>
-                    </div>
-
-                    <?php echo form_hidden('remote', ''); ?>
-                    <?php echo form_hidden('title', ''); ?>
-                    <?php echo form_hidden('description', ''); ?>
-                    <?php echo form_hidden('image', ''); ?>
-                    <?php echo form_hidden('icon', ''); ?>
-                    <?php echo form_hidden('domain', ''); ?>
-                    <?php echo form_hidden('site_name', ''); ?>
-                    <?php echo form_hidden('player', ''); ?>
-
-                    <?php echo form_hidden('type', $sharing); ?>
-                    <?php echo form_submit('share', lang('home_share_submit'),'id="submit" class="gradient-btn"'); ?>
-                    <?php echo form_close(); ?>
-                    <div class="clear"></div>
-                    <div id="updates-list-share-answer" <?php if(!isset($error_msg)) echo 'style="display:none;"'; ?>>
-                        <?php if(isset($error_msg)) : ?>
-                        <p class="error-msg"><?php echo $error_msg; ?></p>
-                        <?php endif; ?>
-                    </div>
-                </div>
-            </div>
-
             <div class="advertisement-block">
                 <?php $this->load->view('advertisement/single'); ?>
             </div>
