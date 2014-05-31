@@ -116,19 +116,23 @@ $refresh_version = '?v=1.15';
                 </li>
             </ul>
             <?php else : ?>
-            <ul id="top-navigation-actions">
+            <div id="top-navigation-actions">
                 <?php echo anchor("sign/up", lang('general_sign_up')); ?>
                 |
                 <?php echo anchor("home".(isset($redirect_url)?"?redirect=$redirect_url":""), lang('general_sign_in')); ?>
-            </ul>
+            </div>
             <?php endif; ?>
         <?php else : ?>
-        <ul id="top-navigation-actions">
+        <div id="top-navigation-actions">
+            <a href="https://twitter.com/showthatyouhelp" title="Twitter">Twitter</a>
+            |
+            <a href="https://github.com/oscardias/showthatyouhelp" title="GitHub">GitHub</a>
+            |
             <?php if(isset($_COOKIE['language']) && $_COOKIE['language'] == 'pt') : ?>
-        <a href="<?php echo base_url('home/index?lang=en'); ?>" title="Switch to English">English</a>
+            <a href="<?php echo base_url('home/index?lang=en'); ?>" title="Switch to English">English</a>
             <?php else : ?>
-        <a href="<?php echo base_url('home/index?lang=pt'); ?>" title="Mudar para Português">Português</a>
+            <a href="<?php echo base_url('home/index?lang=pt'); ?>" title="Mudar para Português">Português</a>
             <?php endif; ?>
-        </ul>
+        </div>
         <?php endif; ?>
     </div>
