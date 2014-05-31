@@ -210,26 +210,20 @@ if ( ! function_exists('file_get_contents_curl'))
 {
     function file_get_contents_curl($url)
     {
-//        $ch = curl_init();
-//        curl_setopt($ch, CURLOPT_HEADER, 0);
-//        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-//        curl_setopt($ch, CURLOPT_URL, $url);
-//        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-//        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-//
-//        $data = curl_exec($ch);
-//        $info = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
-        
         $ch      = curl_init( ); 
         if(!$ch)
             return false;
         
+        $cookie_jar = tempnam('/tmp','cookie');
+        
         $options = array( 
-            CURLOPT_RETURNTRANSFER => true,     // return web page 
+            CURLOPT_RETURNTRANSFER => true,    // return web page 
             CURLOPT_HEADER         => true,    // return headers 
-            CURLOPT_FOLLOWLOCATION => true,     // follow redirects 
+            CURLOPT_FOLLOWLOCATION => true,    // follow redirects 
             CURLOPT_SSL_VERIFYPEER => false,
             CURLOPT_URL            => $url,
+            CURLOPT_COOKIESESSION  => true,
+            CURLOPT_COOKIEJAR      => $cookie_jar,
             CURLOPT_USERAGENT      => 'ShowThatYouHelp/1.0',
             CURLOPT_MAXREDIRS      => 10       // stop after 10 redirects 
         ); 
