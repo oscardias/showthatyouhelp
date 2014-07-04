@@ -20,7 +20,7 @@ $lang['email_recover_password'] = 'Your new password: <strong>%s</strong>';
 $lang['email_recover_token'] = 'In case you haven\'t asked for a new password and you believe this could be someone else trying to access your account, '.
             'go to <a href="%s">%s</a> and sign in with your old password. It will be valid for one week.';
 
-$lang['email_connect_subject'] = '%s is receiving your upates';
+$lang['email_connect_subject'] = '%s is receiving your updates';
 $lang['email_connect_text'] = '<a href="%s">%s</a> is now connected to you and receiving your updates.';
 $lang['email_mention_subject'] = '%s mentioned you';
 $lang['email_mention_text'] = '<a href="%s">%s</a> mentioned you in this <a href="%s">update</a>.';
