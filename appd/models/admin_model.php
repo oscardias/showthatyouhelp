@@ -11,7 +11,7 @@
  */
 
 class Admin_model extends CI_Model {
-    
+
     /**
      * Get Tables
      *
@@ -28,7 +28,7 @@ class Admin_model extends CI_Model {
         }
         return $query->result_array();
     }
-    
+
     /**
      * Get Schema
      *
@@ -40,13 +40,13 @@ class Admin_model extends CI_Model {
      */
     public function get_schema($table)
     {
-        $query = $this->db->query('describe `'.$table.'`');
+        $query = $this->db->query("describe `".$this->db->escape_str($table)."`");
         if ($query->num_rows == 0) {
             return array();
         }
         return $query->result_array();
     }
-    
+
     /**
      * Get Data
      *
@@ -63,7 +63,7 @@ class Admin_model extends CI_Model {
                 get($table)->
                 result_array();
     }
-    
+
     /**
      * Get Total
      *

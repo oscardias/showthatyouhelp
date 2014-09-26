@@ -11,7 +11,7 @@
  */
 
 class User_model extends CI_Model {
-    
+
     /**
      * Validate
      *
@@ -27,7 +27,7 @@ class User_model extends CI_Model {
         // Check if user entered email or username
         $this->db->select('id, password')->
                 where('user_delete', 0);
-        
+
         if(filter_var($user, FILTER_VALIDATE_EMAIL)) {
             // Valid email
             $this->db->where('email', $user);
@@ -35,7 +35,7 @@ class User_model extends CI_Model {
             // Username
             $this->db->where('username', $user);
         }
-        
+
         // Check if user was found and get information
         $query = $this->db->get('user');
 
@@ -46,13 +46,13 @@ class User_model extends CI_Model {
         } else {
             return false;
         }
-        
+
         $this->config->load('config_passhash');
         $this->load->library('PassHash', array(
             'iteration_count_log2' => $this->config->item('phpass_iteration_count_log2'),
             'portable_hashes' => $this->config->item('phpass_portable_hashes')
         ));
-        
+
         if($this->passhash->CheckPassword($password, $hash))
             return $id;
         else
@@ -78,7 +78,7 @@ class User_model extends CI_Model {
                 where('user_delete', 0)->
                 where('user_recover_token', $token)->
                 where('user_recover_date >=', 'DATE_SUB(NOW(), INTERVAL 7 DAY)', false);
-        
+
         if(filter_var($user, FILTER_VALIDATE_EMAIL)) {
             // Valid email
             $this->db->where('email', $user);
@@ -86,7 +86,7 @@ class User_model extends CI_Model {
             // Username
             $this->db->where('username', $user);
         }
-        
+
         // Check if user was found and get information
         $query = $this->db->get('user');
 
@@ -97,22 +97,22 @@ class User_model extends CI_Model {
         } else {
             return false;
         }
-        
+
         $this->config->load('config_passhash');
         $this->load->library('PassHash', array(
             'iteration_count_log2' => $this->config->item('phpass_iteration_count_log2'),
             'portable_hashes' => $this->config->item('phpass_portable_hashes')
         ));
-        
+
         if($this->passhash->CheckPassword($password, $hash)){
             $this->_restoreAccount($id, $hash);
-            
+
             return $id;
         } else
             return false;
 
     }
-    
+
     /**
      * Create User
      *
@@ -125,7 +125,7 @@ class User_model extends CI_Model {
     {
         // Begin transaction with the database
         $this->db->trans_begin();
-        
+
         // Use phpass PasswordHash library to hash the password
         if($data['password']) {
             $this->config->load('config_passhash');
@@ -140,7 +140,7 @@ class User_model extends CI_Model {
                 return false;
             }
         }
-        
+
         $data['user_created'] = date('Y-m-d H:i:s');
 
         if(!$this->db->insert('user', $data)) {
@@ -148,9 +148,9 @@ class User_model extends CI_Model {
             $this->db->trans_rollback();
             return false;
         }
-        
+
         $id = $this->db->insert_id();
-                
+
         if($id) {
             // User view his own posts
             $viewing = array(
@@ -158,14 +158,14 @@ class User_model extends CI_Model {
                 'user_show' => $id,
                 'view_created' => date('Y-m-d H:i:s')
             );
-            
+
             if(!$this->db->insert('view', $viewing)){
                 log_message('error', "user_model->create() - insert(view) - User ID = {$id})");
                 $this->db->trans_rollback();
                 return false;
             }
         }
-        
+
         // Save Twitter sing in
         if($this->session->userdata('oauth_id')) {
             $this->create_oauth(array(
@@ -177,7 +177,7 @@ class User_model extends CI_Model {
                 'oauth_secret'   => $this->session->userdata('oauth_token_secret')
             ));
         }
-        
+
         // Send email to Softerize
         $email_data = array(
             'reason' => 'New User',
@@ -197,7 +197,7 @@ class User_model extends CI_Model {
             'to_name' => 'Support showthatyouhelp'
         )))
             log_message('error', "user_model->create() - customSend() - ".$this->phpmail->ErrorInfo);
-        
+
         if ($this->db->trans_status() === FALSE) {
             $this->db->trans_rollback();
             return false;
@@ -231,7 +231,7 @@ class User_model extends CI_Model {
                 return false;
             }
         }
-        
+
         $this->db->where('id', $this->session->userdata('id'));
         return $this->db->update('user', $data);
     }
@@ -250,17 +250,17 @@ class User_model extends CI_Model {
         // Translation
         $this->lang->load('general', get_language_name());
         $this->lang->load('email', get_language_name());
-        
+
         $user = $this->get(array('username_email' => $username));
 
         if(!$user)
             return false;
-        
+
         $recover = $this->_getRecoverData($user['password']);
 
         if(!$recover)
             return false;
-        
+
         // Send new password
         $email_data = array(
             'new_password' => $recover['password'],
@@ -280,10 +280,10 @@ class User_model extends CI_Model {
             log_message('error', "user_model->sendRecoverEmail() - customSend() - ".$this->phpmail->ErrorInfo);
             return false;
         }
-        
+
         return $this->_setRecoverData($user['id'], $recover);
     }
-    
+
     /**
      * Get
      *
@@ -298,7 +298,7 @@ class User_model extends CI_Model {
         if(isset($data['id'])) $this->db->where('id', $data['id']);
         if(isset($data['username'])) $this->db->where('username', $data['username']);
         if(isset($data['email'])) $this->db->where('email', $data['email']);
-        
+
         if(isset($data['username_email'])) {
             if(filter_var($data['username_email'], FILTER_VALIDATE_EMAIL)) {
                 // Valid email
@@ -308,15 +308,15 @@ class User_model extends CI_Model {
                 $this->db->where('username', $data['username_email']);
             }
         }
-        
+
         $this->db->where('user_delete', 0);
-        
+
         $get = $this->db->get('user');
-        
+
         if($data === false) return $get->result_array();
         return $get->row_array();
     }
-    
+
     /**
      * Get Sitemap
      *
@@ -332,12 +332,12 @@ class User_model extends CI_Model {
                 join('update', 'user.id = update.user', 'left')->
                 where('user_delete', 0)->
                 group_by('user.id');
-        
+
         $get = $this->db->get();
-        
+
         return $get->result_array();
     }
-    
+
     /**
      * Is Viewing
      *
@@ -352,12 +352,12 @@ class User_model extends CI_Model {
     {
         $this->db->where('user_view', $view);
         $this->db->where('user_show', $show);
-        
+
         $get = $this->db->get('view');
-        
+
         if($get->num_rows == 1)
             return true;
-        
+
         return false;
     }
 
@@ -380,14 +380,14 @@ class User_model extends CI_Model {
             $this->db->limit(PER_PAGE_DEFAULT, ($page-1) * PER_PAGE_DEFAULT);
         else
             $this->db->limit(15);
-        
+
         if($mode == 'view')
             $this->db->join('view', "user.id = view.user_show and view.user_view = {$id} and user.id != $id");
         else
             $this->db->join('view', "user.id = view.user_view and view.user_show = {$id} and user.id != $id");
-        
+
         $get = $this->db->get();
-                
+
         return $get->result_array();
     }
 
@@ -404,20 +404,20 @@ class User_model extends CI_Model {
     {
         if($viewing_total > 10)
             return array();
-        
+
         if($viewing_total > 5)
             $limit = 10 - $viewing_total;
         else
             $limit = 5;
-        
+
         $this->db->select('user.username, user.image_name, user.image_ext, user.full_name, user.bio, user.website')->from('user')->
                 where('user_delete', 0)->
                 where("user.id NOT IN (SELECT `user_show` FROM (`view`) WHERE `user_view` = $id)", null, false) ->
                 order_by('update_count', 'desc')->
                 limit($limit);
-        
+
         $get = $this->db->get();
-                
+
         return $get->result_array();
     }
 
@@ -436,17 +436,17 @@ class User_model extends CI_Model {
         $this->db->select('count(user.id) as total')->
                 from('user')->
                 where('user_delete', 0);
-        
+
         if($mode == 'view')
             $this->db->join('view', "user.id = view.user_show and view.user_view = {$id} and user.id != $id");
         else
             $this->db->join('view', "user.id = view.user_view and view.user_show = {$id} and user.id != $id");
-        
+
         $get = $this->db->get()->row_array();
-                
+
         return $get['total'];
     }
-    
+
     /**
      * Prepare Image
      *
@@ -465,9 +465,9 @@ class User_model extends CI_Model {
             2 => array('name' => 'small', 'width' => 42, 'height' => 42),
             3 => array('name' => 'thumb', 'width' => 24, 'height' => 24)
         );
-        
-        $this->load->library('image_lib'); 
-        
+
+        $this->load->library('image_lib');
+
         for($i = 0; $i < 4; $i++) {
             // Image library settings
             $config = array();
@@ -486,16 +486,16 @@ class User_model extends CI_Model {
             }
 
             $this->image_lib->clear();
-            $this->image_lib->initialize($config); 
+            $this->image_lib->initialize($config);
             if(!$this->image_lib->resize()){
                 return $this->image_lib->display_errors();
             }
         }
-        
+
         return '';
     }
 
-    
+
     /**
      * Connect
      *
@@ -510,24 +510,24 @@ class User_model extends CI_Model {
     {
         // Begin transaction with the database
         $this->db->trans_start();
-        
+
         $this->db->select('id')->where('username', $show_username)->
                 where('user_delete', 0);
         $get = $this->db->get('user');
-        
+
         if($get->num_rows == 0)
             return false;
-        
+
         $show = $get->row_array();
-        
+
         $data = array(
             'user_view' => $view_id,
             'user_show' => $show['id'],
             'view_created' => date('Y-m-d H:i:s')
         );
-        
+
         $this->db->insert('view', $data);
-        
+
         // Create notification
         if(!$this->db->insert('user_notification',
                 array(
@@ -540,15 +540,15 @@ class User_model extends CI_Model {
                     )
                 ))
             log_message('error', "user_model->connect() - Insert into user_notification:".$this->db->_error_message());
-        
+
         $this->db->trans_complete();
-        
+
         if($this->db->trans_status() === false)
             return false;
-        
+
         return true;
     }
-    
+
     /**
      * Disconnect
      *
@@ -564,17 +564,17 @@ class User_model extends CI_Model {
         $this->db->select('id')->where('username', $show_username)->
                 where('user_delete', 0);
         $get = $this->db->get('user');
-        
+
         if($get->num_rows == 0)
             return false;
-        
+
         $show = $get->row_array();
-        
+
         return $this->db->where('user_view', $view_id)->
                 where('user_show', $show['id'])->
                 delete('view');
-    }    
-    
+    }
+
     /**
      * Search
      *
@@ -589,22 +589,22 @@ class User_model extends CI_Model {
     {
         $this->db->select('id, username, full_name, bio, image_name, image_ext, website, user_show')->
                 from('user')->
-                where("(username LIKE '%{$term}%' or full_name LIKE '%{$term}%')")->
+                where("(username LIKE '%".$this->db->escape_like_str($term)."%' or full_name LIKE '%".$this->db->escape_like_str($term)."%')")->
                 where('user_delete', 0)->
                 limit(PER_PAGE_DEFAULT, ($page-1) * PER_PAGE_DEFAULT);
-        
+
         if($user_id)
             $this->db->join('view', "view.user_show = user.id and view.user_view = {$user_id}", 'left')->
                     where('user.id !=', $user_id);
-        
+
         $get = $this->db->get();
-        
+
         if($get->num_rows == 0)
             return false;
-        
+
         return $get->result_array();
     }
-    
+
     /**
      * Count Search
      *
@@ -619,18 +619,18 @@ class User_model extends CI_Model {
     {
         $this->db->select('count(id) as total')->
                 from('user')->
-                where("(username LIKE '%{$term}%' or full_name LIKE '%{$term}%')")->
+                where("(username LIKE '%".$this->db->escape_like_str($term)."%' or full_name LIKE '%".$this->db->escape_like_str($term)."%')")->
                 where('user_delete', 0);
-        
+
         if($user_id)
             $this->db->join('view', "view.user_show = user.id and view.user_view = {$user_id}", 'left')->
                     where('user.id !=', $user_id);
-        
+
         $get = $this->db->get()->row_array();
-        
+
         return $get['total'];
-    }    
-    
+    }
+
     /*
      * Mark Deletion
      *
@@ -643,27 +643,27 @@ class User_model extends CI_Model {
     public function markDeleted($user_id){
         // Begin transaction with the database
         $this->db->trans_start();
-        
+
         // Define all user updates as deleted
         $this->db->where('user', $user_id)->
                 set('update_delete', 1)->
                 set('update_delete_date', date('Y-m-d'))->
                 update('update');
-        
+
         // Define user as deleted
         $this->db->where('id', $user_id)->
                 set('user_delete', 1)->
                 set('user_delete_date', date('Y-m-d'))->
                 update('user');
-        
+
         $this->db->trans_complete();
-        
+
         if($this->db->trans_status() === false)
             return false;
 
         return true;
     }
-    
+
     /*
      * Get Delete Users
      *
@@ -677,10 +677,10 @@ class User_model extends CI_Model {
                 from('user')->
                 where('user_delete', 1)->
                 where('user_delete_date <', 'DATE_SUB(NOW(), INTERVAL 1 MONTH)', false);
-        
+
         return $this->db->get()->result_array();
     }
-    
+
     /**
      * Remove Account
      *
@@ -694,7 +694,7 @@ class User_model extends CI_Model {
     {
         $this->db->where('id', $user_id)->
                 delete('user');
-        
+
         // Clear user folders
         $folder = getcwd().'/upload/profile/'.$username;
         if(is_dir($folder)) {
@@ -704,10 +704,10 @@ class User_model extends CI_Model {
                 return false;
             }
         }
-        
+
         return true;
-    }    
-    
+    }
+
     /**
      * Is Admin
      *
@@ -724,7 +724,7 @@ class User_model extends CI_Model {
                 where('id', $user_id)->
                 where('user_delete', 0)->
                 where('is_admin', 1);
-                
+
         // Check if user was found and get information
         $query = $this->db->get('user');
 
@@ -732,8 +732,8 @@ class User_model extends CI_Model {
             return true;
         else
             return false;
-    }    
-    
+    }
+
     /**
      * Invite User
      *
@@ -749,21 +749,21 @@ class User_model extends CI_Model {
         // Translation
         $this->lang->load('general', get_language_name());
         $this->lang->load('email', get_language_name());
-        
+
         $user_data = $this->get(array('id' => $user_id));
-        
+
         // Check if invited user exists
         $this->db->select('id')->
                 where('email', $invite_email)->
                 where('user_delete', 0);
-                
+
         // Check if user was found and get information
         $query = $this->db->get('user');
 
         // Notify existing user
         $this->load->helper('string');
         $token = random_string('unique');
-        
+
         $email_data = array(
             'username' => $user_data['username'],
             'full_name' => $user_data['full_name'],
@@ -783,7 +783,7 @@ class User_model extends CI_Model {
         ))) {
             log_message('error', "user_model->invite_user() - customSend() - ".$this->phpmail->ErrorInfo);
         }
-        
+
         // Save invite info
         $this->db->insert('user_invite', array(
             'user_id' => $user_id,
@@ -791,15 +791,15 @@ class User_model extends CI_Model {
             'user_invite_token' => $token,
             'user_invite_date' => date('Y-m-d H:i:s')
         ));
-        
+
         // Reduce invites left
         $this->db->where('id', $user_id)->
                     set('invites', 'invites - 1', false)->
                     update('user');
-        
+
         return true;
     }
-    
+
     /**
      * Check Invite Token
      *
@@ -814,7 +814,7 @@ class User_model extends CI_Model {
         // Check if user entered email or username
         $this->db->select('*')->
                 where('user_invite_token', $token);
-                
+
         // Check if user was found and get information
         $query = $this->db->get('user_invite');
 
@@ -822,8 +822,8 @@ class User_model extends CI_Model {
             return $query->row_array();
         else
             return array();
-    }    
-    
+    }
+
     /**
      * Clear Invite
      *
@@ -837,8 +837,8 @@ class User_model extends CI_Model {
     {
         $this->db->where('user_invite_id', $invite_id);
         return $this->db->delete('user_invite');
-    }    
-    
+    }
+
     /**
      * Set Last Login
      *
@@ -854,7 +854,7 @@ class User_model extends CI_Model {
         $this->db->where('id', $user_id);
         return $this->db->update('user', $data);
     }
-    
+
     /**
      * Get Extra
      *
@@ -868,7 +868,7 @@ class User_model extends CI_Model {
     {
         $this->db->where('user_id', $user_id);
         $get = $this->db->get('user_extra');
-        
+
         if($get->num_rows() == 0) {
             // Create default extra information
             $notify = json_encode(array(
@@ -879,26 +879,26 @@ class User_model extends CI_Model {
                 'notify_pending' => '1',
                 'notify_other' => '1'
             ));
-            
+
             $extra = array(
                 'user_id' => $user_id,
                 'notifications' => $notify
             );
-            
+
             $this->db->insert('user_extra', $extra);
         } else {
             $extra = $get->row_array();
         }
-        
+
         $extra['notifications'] = json_decode($extra['notifications'], TRUE);
-        
+
         if(!isset($extra['notifications']['notify_connect'])) $extra['notifications']['notify_connect'] = '1';
         if(!isset($extra['notifications']['notify_mention'])) $extra['notifications']['notify_mention'] = '1';
         if(!isset($extra['notifications']['notify_comment'])) $extra['notifications']['notify_comment'] = '1';
         if(!isset($extra['notifications']['notify_reshare'])) $extra['notifications']['notify_reshare'] = '1';
         if(!isset($extra['notifications']['notify_pending'])) $extra['notifications']['notify_pending'] = '1';
         if(!isset($extra['notifications']['notify_other'])) $extra['notifications']['notify_other'] = '1';
-        
+
         return $extra;
     }
 
@@ -919,13 +919,13 @@ class User_model extends CI_Model {
         if($user_id)
             $this->db->where('user_id', $user_id);
         $get = $this->db->get('user_oauth');
-        
+
         if($get->num_rows() == 0)
             return false;
         else
             return $get->row_array();
     }
-    
+
     /**
      * Create OAuth
      *
@@ -939,7 +939,7 @@ class User_model extends CI_Model {
     {
         return $this->db->insert('user_oauth', $oauth_data);
     }
-    
+
     /**
      * Update OAuth
      *
@@ -954,7 +954,7 @@ class User_model extends CI_Model {
         $this->db->where('user_id', $oauth_data['user_id']);
         return $this->db->update('user_oauth', $oauth_data);
     }
-    
+
     /**
      * Remove OAuth
      *
@@ -969,7 +969,7 @@ class User_model extends CI_Model {
         $this->db->where('user_id', $user_id);
         return $this->db->delete('user_oauth');
     }
-    
+
     /**
      * Update Extra
      *
@@ -983,11 +983,11 @@ class User_model extends CI_Model {
     {
         if(isset($data['notifications']))
             $data['notifications'] = json_encode($data['notifications']);
-        
+
         $this->db->where('user_id', $data['user_id']);
         return $this->db->update('user_extra', $data);
     }
-    
+
     /*
      * PRIVATE METHODS
      */
@@ -1002,10 +1002,10 @@ class User_model extends CI_Model {
     private function _getRecoverData($bkp_pass)
     {
         $this->load->helper('string');
-        
+
         $token = random_string('unique');
         $password = random_string('alnum', 12);
-        
+
         $data = array(
             'password' => $password,
             'recover_token' => $token,
@@ -1028,21 +1028,21 @@ class User_model extends CI_Model {
     {
         // Begin transaction with the database
         $this->db->trans_start();
-        
+
         // Use phpass PasswordHash library to hash the password
         $this->config->load('config_passhash');
         $this->load->library('PassHash', array(
             'iteration_count_log2' => $this->config->item('phpass_iteration_count_log2'),
             'portable_hashes' => $this->config->item('phpass_portable_hashes')
         ));
-        
+
         $data['password'] = $this->passhash->HashPassword($data['password']);
-        
+
         if (strlen($data['password']) < 20) {
             log_message('error', "user_model->_setRecoverData() - Hash length < 20");
             return false;
         }
-        
+
         // Insert into recovery table
         $this->db->insert('user_recover', array(
             'user_id' => $user_id,
@@ -1050,13 +1050,13 @@ class User_model extends CI_Model {
             'user_recover_password' => $data['recover_password'],
             'user_recover_date' => $data['recover_date']
             ));
-        
+
         // Update user table
         $this->db->where('id', $user_id);
         $this->db->update('user', array('password' => $data['password']));
-        
+
         $this->db->trans_complete();
-        
+
         if($this->db->trans_status() === false)
             return false;
 
@@ -1073,20 +1073,20 @@ class User_model extends CI_Model {
      * @return  mixed
      */
     private function _restoreAccount($user_id, $hash)
-    {   
+    {
         // Begin transaction with the database
         $this->db->trans_start();
-        
+
         $this->db->where('user_id', $user_id)->
                 where('user_recover_date <', 'DATE_SUB(NOW(), INTERVAL 7 DAY)', false)->
                 delete('user_recover');
-        
+
         // Update user table
         $this->db->where('id', $user_id);
         $this->db->update('user', array('password' => $hash));
-        
+
         $this->db->trans_complete();
-        
+
         if($this->db->trans_status() === false)
             return false;
 
